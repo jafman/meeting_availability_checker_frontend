@@ -1,6 +1,7 @@
 import './App.css';
 import Home from './views/Home';
 import Calendar from './views/Calendar';
+import Success from './views/Success';
 
 import {
   BrowserRouter,
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/calendar" element={<Calendar />}/>
+        <Route path="/success" element={<Success />}/>
       </Routes>
     </BrowserRouter>
   );
